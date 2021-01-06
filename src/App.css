@@ -1,0 +1,85 @@
+#root  {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+   
+}
+#body {
+   
+}
+
+.App {
+
+    height: 100%;
+    padding-top: 50px;
+  /*  margin: auto;*/
+
+}
+
+.d{
+    text-align: center;
+}
+
+
+.weatherimg {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.main {
+    background-color: rgb(254, 255, 183);
+    margin: 50px;
+    align-items: center;
+    border: forestgreen;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 50%;
+   
+}
+
+.container {
+    background-color: cyan;
+     border-radius: 10px;
+    border-width: 2px;
+    border-color: rgb(0, 2, 117);
+    border-style: solid;
+    
+} 
+
+
+
+
+
+
+
+@media screen and  (min-width: 601px) {
+    .text > h1 {
+
+        font-size: 30px;
+            
+    }
+    .d{
+        font-size: 30px;
+    }
+    }
+
+    
+@media screen and (max-width: 600px)  {
+    .text > h1 {
+
+        font-size: 25px;
+ 
+
+    }
+
+
+    .d{
+        font-size: 20px;
+    }
+    }
+
+
